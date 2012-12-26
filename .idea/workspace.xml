@@ -4,6 +4,7 @@
     <list default="true" id="576168fd-6fe6-4d9b-827a-23e97c0ad958" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/resize.html" afterPath="$PROJECT_DIR$/public/resize.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/review.html" afterPath="$PROJECT_DIR$/public/review.html" />
     </list>
     <ignored path="sample_app.iws" />
@@ -26,7 +27,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="64" selection-start="618" selection-end="618" vertical-scroll-proportion="-8.96">
+            <state line="19" column="104" selection-start="597" selection-end="597" vertical-scroll-proportion="-8.32">
               <folding />
             </state>
           </provider>
@@ -59,19 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
+      <file leaf-file-name="review.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/review.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="12" column="6" selection-start="366" selection-end="366" vertical-scroll-proportion="0.3052464">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="review.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/review.html">
+      <file leaf-file-name="resize.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/resize.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="6" selection-start="366" selection-end="366" vertical-scroll-proportion="0.3052464">
+            <state line="4" column="7" selection-start="147" selection-end="147" vertical-scroll-proportion="-2.56">
               <folding />
             </state>
           </provider>
@@ -138,10 +139,10 @@
         <option value="$PROJECT_DIR$/my_script.rb" />
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/public/resize.html" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/public/review.html" />
+        <option value="$PROJECT_DIR$/public/resize.html" />
       </list>
     </option>
   </component>
@@ -765,13 +766,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/resize.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="147" selection-end="147" vertical-scroll-proportion="-2.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="38" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
@@ -842,7 +836,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="64" selection-start="618" selection-end="618" vertical-scroll-proportion="-8.96">
+        <state line="19" column="104" selection-start="597" selection-end="597" vertical-scroll-proportion="-8.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/resize.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="147" selection-end="147" vertical-scroll-proportion="-2.56">
           <folding />
         </state>
       </provider>

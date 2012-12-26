@@ -1,12 +1,61 @@
+
 <% provide(:title, @user.name) %>
 <div class="row">
   <aside class="span4">
     <section>
       <h1>
-        <%= gravatar_for @user %>
+        <%= gravatar_for @user, size: 40 %>
         <%= @user.name %>
       </h1>
     </section>
   </aside>
 </div>
 
+<script type="text/javascript">
+    var pr_style_sheet="http://cdn.powerreviews.com/aux/16157/559349/css/express.css";
+</script>
+<script type="text/javascript" src="http://cdn.powerreviews.com/repos/16157/pr/pwr/engine/js/full.js"></script>
+
+
+<div class="pr_snippet_product">
+  <script type="text/javascript">POWERREVIEWS.display.snippet(document, { pr_page_id : <%= @user.id %> });</script>
+</div>
+
+<div class="pr_review_summary">
+  <script type="text/javascript">POWERREVIEWS.display.engine(document, { pr_page_id : <%= @user.id %> });</script>
+</div>
+
+<div class="pr_write_review">
+  <script type="text/javascript">
+      var pr_style_sheet="http://cdn.powerreviews.com/aux/16157/559349/css/express.css";
+  </script>
+  <script type="text/javascript" src="http://cdn.powerreviews.com/repos/16157/pr/pwr/engine/js/appLaunch.js"></script>
+</div>
+
+<!--
+<script type="text/javascript" src="https://www.yotpo.com/js/yQuery.js"></script>
+
+<div class="yotpo bottomLine"
+     data-appkey="652DSA8XC3zyVriCg7mXNB2zJ8zmr9WZPVKA6EHO"
+     data-domain="127.0.0.1:12345"
+     data-product-id="pid <%= @user.id %>"
+     data-product-models="pmodel"
+     data-name="data-name User"
+     data-url="127.0.0.1:12345/users/<%= @user.id %>"
+     data-image-url="<%= image_url_for @user %>"
+     data-description="datadesc"
+     data-bread-crumbs="crumbs">
+</div>
+
+<div class="yotpo reviews"
+     data-appkey="652DSA8XC3zyVriCg7mXNB2zJ8zmr9WZPVKA6EHO"
+     data-domain="127.0.0.1:12345"
+     data-product-id="pid <%= @user.id %>"
+     data-product-models="pmodels"
+     data-name="User"
+     data-url="127.0.0.1:12345/users/<%= @user.id %>"
+     data-image-url="<%= image_url_for @user %>"
+     data-description="datadesc"
+     data-bread-crumbs="crumbs">
+</div>
+-->

@@ -12,17 +12,16 @@
 </div>
 
 <script type="text/javascript">
-    var pr_style_sheet="http://cdn.powerreviews.com/aux/16157/559349/css/express.css";
+    var pr_style_sheet="http://cdn.powerreviews.com/aux/16158/408484/css/express.css";
 </script>
-<script type="text/javascript" src="http://cdn.powerreviews.com/repos/16157/pr/pwr/engine/js/full.js"></script>
-
+<script type="text/javascript" src="http://cdn.powerreviews.com/repos/16158/pr/pwr/engine/js/full.js"></script>
 
 <div class="pr_snippet_product">
-  <script type="text/javascript">POWERREVIEWS.display.snippet(document, { pr_page_id : <%= @user.id %> });</script>
+  <script type="text/javascript">POWERREVIEWS.display.snippet(document, { pr_page_id : "<%= @user.id %>" });</script>
 </div>
 
 <div class="pr_review_summary">
-  <script type="text/javascript">POWERREVIEWS.display.engine(document, { pr_page_id : <%= @user.id %> });</script>
+  <script type="text/javascript">POWERREVIEWS.display.engine(document, { pr_page_id : "<%= @user.id %>" });</script>
 </div>
 
 <div class="pr_write_review">
